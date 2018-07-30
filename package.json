@@ -1,0 +1,42 @@
+{
+  "name": "reprise",
+  "version": "0.0.0",
+  "description": "Automatic hot-reloading for Babel-compiled Node.js processes",
+  "keywords": [
+    "hot reloading",
+    "reloading",
+    "babel"
+  ],
+  "homepage": "https://github.com/splayd/reprise",
+  "bugs": "https://github.com/splayd/reprise/issues",
+  "license": "MIT",
+  "author": "Vinson Chuong <vinsonchuong@gmail.com>",
+  "repository": "splayd/reprise",
+  "scripts": {
+    "test": "standard -v --fix && flow && ava",
+    "release": "semantic-release",
+    "prepack": "build-esm"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/register": "^7.0.0-beta.55",
+    "babel-preset-diff": "^6.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.0.0-beta.6",
+    "build-esm": "^4.0.0",
+    "flow-bin": "^0.77.0",
+    "semantic-release": "^15.8.1",
+    "standard-esnext": "^5.0.0"
+  },
+  "babel": {
+    "presets": [
+      "diff"
+    ]
+  },
+  "ava": {
+    "require": [
+      "@babel/register"
+    ]
+  }
+}

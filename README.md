@@ -21,6 +21,30 @@ yarn reprise server.js
 Project-specific Babel configuration (`package.json`, `.babelrc`, `.babelrc.js`)
 is respected, defaulting to `@babel/env` if none exists.
 
+For usage with an existing Node.js CLI:
+
+```js
+import { promisify } from 'util'
+import * as path from 'path'
+import reprise from 'reprise'
+
+const sleep = promisify(setTimeout)
+
+async function run() {
+  const box = reprise(path.resolve('app.js'))
+
+  while (true) {
+    console.log(box.value)
+    await sleep(1000)
+  }
+}
+run()
+```
+
+The `reprise` function takes the path to an entry point within the current
+directory and returns a box whose `value` property contains the latest copy of
+the imported entry point.
+
 ## Installation
 
 ### Supported Versions of Node.js

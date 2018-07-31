@@ -7,5 +7,7 @@
 [lints]
 
 [options]
+module.name_mapper='^reprise$' -> '<PROJECT_ROOT>'
+module.name_mapper='^reprise\/\(.*\)$' -> '<PROJECT_ROOT>/\1'
 
 [strict]

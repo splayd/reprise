@@ -11,23 +11,32 @@
   "bugs": "https://github.com/splayd/reprise/issues",
   "license": "MIT",
   "author": "Vinson Chuong <vinsonchuong@gmail.com>",
+  "bin": {
+    "reprise": "bin/reprise.js"
+  },
   "repository": "splayd/reprise",
   "scripts": {
     "test": "standard -v --fix && flow && ava",
     "release": "semantic-release",
+    "build": "build-esm",
     "prepack": "build-esm"
   },
   "dependencies": {
     "@babel/core": "^7.0.0-beta.55",
     "@babel/register": "^7.0.0-beta.55",
-    "babel-preset-diff": "^6.0.0"
+    "babel-preset-diff": "^6.0.0",
+    "chokidar": "^2.0.4",
+    "interop-require": "^1.0.0",
+    "invalidate-module": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^1.0.0-beta.6",
     "build-esm": "^4.0.0",
     "flow-bin": "^0.77.0",
+    "fs-extra": "^7.0.0",
     "semantic-release": "^15.8.1",
-    "standard-esnext": "^5.0.0"
+    "standard-esnext": "^5.0.0",
+    "tempy": "^0.2.1"
   },
   "babel": {
     "presets": [

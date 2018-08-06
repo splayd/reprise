@@ -11,7 +11,7 @@ export async function waitForCondition(
   } else if (timeout <= 0) {
     throw new Error('Condition never satisfied')
   } else {
-    await sleep(100)
-    await waitForCondition(predicate)
+    await sleep(500)
+    await waitForCondition(predicate, timeout - 500)
   }
 }

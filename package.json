@@ -17,7 +17,7 @@
   "repository": "splayd/reprise",
   "scripts": {
     "prepare": "flow-typed update --skip",
-    "test": "standard -v --fix && flow && ava",
+    "test": "standard -v --fix && flow && ava -v",
     "release": "semantic-release",
     "build": "build-esm",
     "prepack": "build-esm"

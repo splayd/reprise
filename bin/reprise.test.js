@@ -1,4 +1,3 @@
-/* eslint-disable ava/use-test */
 /* @flow */
 import ava from 'ava'
 import * as path from 'path'

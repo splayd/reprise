@@ -5623,10 +5623,10 @@ overdub@^1.2.0:
     stack-chain "^2.0.0"
     trace "^3.1.0"
 
-overdub@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/overdub/-/overdub-2.0.0.tgz#546d96b6401fdc0c31155600c77fd1185f267896"
-  integrity sha512-XI1eaNIZG/7nSZztikvgJdexUn/rxOH1aSSAynNf3wLXZabtGv7pn+AK1jkCce1vFJ99PAYsNms5nMu84JFE7w==
+overdub@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/overdub/-/overdub-2.0.1.tgz#c74489282db25994f04ab9404f3a9ca323658bf9"
+  integrity sha512-JS7W7Wu4OxIFbFmbG0oCmrtXtaHNRpPcPVGan2NqQWR8C09fLgez3nOdutMyuwB/ouCW9A7FgezuHssIpcl1BQ==
   dependencies:
     "@babel/core" "^7.1.0"
     "@babel/register" "^7.0.0"

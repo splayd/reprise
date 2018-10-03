@@ -26,7 +26,7 @@
     "chokidar": "^2.0.4",
     "interop-require": "^1.0.0",
     "invalidate-module": "^1.0.0",
-    "overdub": "^2.0.0"
+    "overdub": "^2.0.1"
   },
   "devDependencies": {
     "ava": "^1.0.0-beta.8",

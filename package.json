@@ -7,14 +7,14 @@
     "reloading",
     "babel"
   ],
-  "homepage": "https://github.com/splayd/reprise",
-  "bugs": "https://github.com/splayd/reprise/issues",
+  "homepage": "https://github.com/vinsonchuong/reprise",
+  "bugs": "https://github.com/vinsonchuong/reprise/issues",
   "license": "MIT",
   "author": "Vinson Chuong <vinsonchuong@gmail.com>",
   "bin": {
     "reprise": "bin/reprise.js"
   },
-  "repository": "splayd/reprise",
+  "repository": "vinsonchuong/reprise",
   "scripts": {
     "prepare": "flow-typed update --skip",
     "test": "standard -v --fix && flow && ava -v",

@@ -1,8 +1,8 @@
 # reprise
 ![npm](https://img.shields.io/npm/v/reprise.svg)
-[![Build Status](https://travis-ci.org/splayd/reprise.svg?branch=master)](https://travis-ci.org/splayd/reprise)
-[![dependencies Status](https://david-dm.org/splayd/reprise/status.svg)](https://david-dm.org/splayd/reprise)
-[![devDependencies Status](https://david-dm.org/splayd/reprise/dev-status.svg)](https://david-dm.org/splayd/reprise?type=dev)
+[![Build Status](https://travis-ci.org/vinsonchuong/reprise.svg?branch=master)](https://travis-ci.org/vinsonchuong/reprise)
+[![dependencies Status](https://david-dm.org/vinsonchuong/reprise/status.svg)](https://david-dm.org/vinsonchuong/reprise)
+[![devDependencies Status](https://david-dm.org/vinsonchuong/reprise/dev-status.svg)](https://david-dm.org/vinsonchuong/reprise?type=dev)
 
 Automatic hot-reloading for Babel-compiled Node.js processes
 
